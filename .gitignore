@@ -1,0 +1,10 @@
+# Build artefacts. Everything here is reproduced by `make` in under a
+# second, and the .so / .dll drift out of step with the source the moment
+# anyone edits it — a Linux checkout was being handed a Windows DLL.
+*.o
+*.a
+*.so
+*.dll
+*.exe
+/main
+/test
